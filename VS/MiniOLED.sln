@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniOLED", "MiniOLED\MiniOLED.csproj", "{F5C46CAD-E939-48CB-B60B-2EEDFAF26106}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5C46CAD-E939-48CB-B60B-2EEDFAF26106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C46CAD-E939-48CB-B60B-2EEDFAF26106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C46CAD-E939-48CB-B60B-2EEDFAF26106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C46CAD-E939-48CB-B60B-2EEDFAF26106}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {183149D1-C340-402D-8449-71399C6DBA8E}
+	EndGlobalSection
+EndGlobal

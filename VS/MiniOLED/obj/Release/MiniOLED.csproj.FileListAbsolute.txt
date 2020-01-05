@@ -1,0 +1,8 @@
+F:\FUCK\C#\MiniOLED\MiniOLED\bin\Release\MiniOLED.exe.config
+F:\FUCK\C#\MiniOLED\MiniOLED\bin\Release\MiniOLED.exe
+F:\FUCK\C#\MiniOLED\MiniOLED\bin\Release\MiniOLED.pdb
+F:\FUCK\C#\MiniOLED\MiniOLED\bin\Release\OpenHardwareMonitorLib.dll
+F:\FUCK\C#\MiniOLED\MiniOLED\obj\Release\MiniOLED.csproj.CopyComplete
+F:\FUCK\C#\MiniOLED\MiniOLED\obj\Release\MiniOLED.exe
+F:\FUCK\C#\MiniOLED\MiniOLED\obj\Release\MiniOLED.pdb
+F:\FUCK\C#\MiniOLED\MiniOLED\obj\Release\MiniOLED.csprojAssemblyReference.cache

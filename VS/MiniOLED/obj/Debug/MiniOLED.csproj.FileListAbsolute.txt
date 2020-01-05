@@ -1,0 +1,6 @@
+F:\FUCK\C#\MiniOLED\MiniOLED\bin\Debug\MiniOLED.exe.config
+F:\FUCK\C#\MiniOLED\MiniOLED\bin\Debug\MiniOLED.exe
+F:\FUCK\C#\MiniOLED\MiniOLED\bin\Debug\MiniOLED.pdb
+F:\FUCK\C#\MiniOLED\MiniOLED\obj\Debug\MiniOLED.csproj.CopyComplete
+F:\FUCK\C#\MiniOLED\MiniOLED\obj\Debug\MiniOLED.exe
+F:\FUCK\C#\MiniOLED\MiniOLED\obj\Debug\MiniOLED.pdb
