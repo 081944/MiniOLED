@@ -96,6 +96,77 @@ namespace MiniOLED
                 Console.WriteLine("加载的图片路径不存在");
             }
         }
+
+        static void AddMiniNumToBuffer(bufferPosition Position, int Num, ref int[,] screenBuffer)
+        {
+            string NumBitMapPath = "";
+            NumBitMapPath = System.IO.Directory.GetCurrentDirectory() + "\\Resource\\Number\\Mini\\" + Num + ".bmp";
+
+            if (System.IO.File.Exists(NumBitMapPath))
+            {
+                Bitmap backgroungMap01 = new Bitmap(NumBitMapPath);
+
+                //遍历输出结果看看
+                for (int i = 0; i < backgroungMap01.Height; i++)
+                {
+                    for (int j = 0; j < backgroungMap01.Width; j++)
+                    {
+                        if (backgroungMap01.GetPixel(j, i).R == 0)
+                        {
+                            screenBuffer[Position.BeginXPos + j, Position.BeginYPos + i] = 0;
+                        }
+                        else
+                        {
+                            screenBuffer[Position.BeginXPos + j, Position.BeginYPos + i] = 1;
+                        }
+                    }
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("加载的Mini图片路径不存在");
+            }
+        }
+
+        static void AddTimeInfo(ref int[,] screenbuffer)
+        {
+            bufferPosition positionTemp;
+
+            //小时
+            int timeTemp = DateTime.Now.Hour;
+            //第一个数字
+            positionTemp.BeginXPos = 1;
+            positionTemp.BeginYPos = 58;
+            AddMiniNumToBuffer(positionTemp,(timeTemp / 10), ref screenbuffer);
+            //第二个数字
+            positionTemp.BeginXPos = 5;
+            positionTemp.BeginYPos = 58;
+            AddMiniNumToBuffer(positionTemp, (timeTemp % 10), ref screenbuffer);
+
+            //分钟
+            timeTemp = DateTime.Now.Minute;
+            //第一个数字
+            positionTemp.BeginXPos = 11;
+            positionTemp.BeginYPos = 58;
+            AddMiniNumToBuffer(positionTemp, (timeTemp / 10), ref screenbuffer);
+            //第二个数字
+            positionTemp.BeginXPos = 15;
+            positionTemp.BeginYPos = 58;
+            AddMiniNumToBuffer(positionTemp, (timeTemp % 10), ref screenbuffer);
+
+            //秒
+            timeTemp = DateTime.Now.Second;
+            //第一个数字
+            positionTemp.BeginXPos = 21;
+            positionTemp.BeginYPos = 58;
+            AddMiniNumToBuffer(positionTemp, (timeTemp / 10), ref screenbuffer);
+            //第二个数字
+            positionTemp.BeginXPos = 25;
+            positionTemp.BeginYPos = 58;
+            AddMiniNumToBuffer(positionTemp, (timeTemp % 10), ref screenbuffer);
+
+        }
         static void GetSystemInfo(ref int[,] screenBuffer)
         {
 
@@ -703,6 +774,9 @@ namespace MiniOLED
                     
                     //获取系统参数
                     GetSystemInfo(ref screenBuffer);
+
+                    //添加系统时间
+                    AddTimeInfo(ref screenBuffer);
 
                     //显示屏幕内容
                     //ShowScreenBuffet(ref screenBuffer);
