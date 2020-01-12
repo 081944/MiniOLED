@@ -4,3 +4,10 @@ F:\FUCK\C#\MiniOLED\MiniOLED\bin\Debug\MiniOLED.pdb
 F:\FUCK\C#\MiniOLED\MiniOLED\obj\Debug\MiniOLED.csproj.CopyComplete
 F:\FUCK\C#\MiniOLED\MiniOLED\obj\Debug\MiniOLED.exe
 F:\FUCK\C#\MiniOLED\MiniOLED\obj\Debug\MiniOLED.pdb
+F:\FUCK\C#\TT\MiniOLED\VS\MiniOLED\bin\Debug\MiniOLED.exe.config
+F:\FUCK\C#\TT\MiniOLED\VS\MiniOLED\bin\Debug\MiniOLED.exe
+F:\FUCK\C#\TT\MiniOLED\VS\MiniOLED\bin\Debug\MiniOLED.pdb
+F:\FUCK\C#\TT\MiniOLED\VS\MiniOLED\obj\Debug\MiniOLED.csprojAssemblyReference.cache
+F:\FUCK\C#\TT\MiniOLED\VS\MiniOLED\obj\Debug\MiniOLED.csproj.CopyComplete
+F:\FUCK\C#\TT\MiniOLED\VS\MiniOLED\obj\Debug\MiniOLED.exe
+F:\FUCK\C#\TT\MiniOLED\VS\MiniOLED\obj\Debug\MiniOLED.pdb
